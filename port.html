@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        .navbar {
+            
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            height: auto;
+            padding: 10px 0;
+            text-align: center;
+            color: black;
+
+        }
+        ul{
+            margin-top: -4%;
+        }
+        ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: -3%;
+            transition: .4s ease-in-out;
+        }
+        ul li a:hover{
+            color: #f00;
+        }
+        .info {
+            margin-top: 6%;
+            margin-left: 7%;
+        }
+        .info h3 {
+            font-size: 30px;
+            color:brown;
+
+        }
+        info h1 {
+            font-size: 50px;
+            color: blueviolet;
+        }
+        .info h1 span {
+            color: #f00;
+        }
+        .info a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color .3s ease-in-out;
+        }
+        .info a:hover {
+            background-color: lightblue;
+        }
+        .image {
+            width: 30%;
+            height: 60%;
+            position: absolute;
+            right: 100px;
+            bottom: 0; 
+            background-color: transparent;
+        }
+        .image img {
+            position: absolute;
+            height: 140%;
+            left: 40%;
+            transform: translate(-50%);
+            bottom: 0;
+            transition: left .2s ease;
+            background-color: transparent;
+            border-radius: 50%;
+        }
+        .icon a {
+            text-decoration: none;
+            color: black;
+        }
+        .icon ion-icon {
+            transition: color 0.3s;
+            color: #333;
+            margin: 0 10px;
+            font-size: 30px;
+        }
+        .icon ion-icon:hover {
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+              <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="mohd.html">MY WORKS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        
+        </ul>
+    </div>
+    <div class="info">
+        <h3>Hi, I'm<span> Mohamed</span></h3>
+        <h1><span>W</span>E<span>B</span> DEVE<span>L</span>OPER</h1>
+        <h3>Web developer and desiger from Tanga,TANZANIA. I create<br>Website to do bussines do better <br> online</h3>
+        <a href="mohd.html" class="btn">Learn More</a>
+    </div>
+    <div class="image">
+        <img src="mimi.jpg" alt="Mohamed Half">
+        </div>
+        <div class="icon">
+         <a href="https://facebook.com/mtupu junior" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://instagram.com/BongoToGlobalBall" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/MohamedHalf" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+</div>    
+</body>
+</html>
